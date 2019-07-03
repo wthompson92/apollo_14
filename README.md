@@ -8,7 +8,17 @@ Fork this repository and clone your newly created repository. At the end of one 
 
 ## Setup
 
-- Perform the usual setup steps after cloning a Rails application (`bundle`, `rake db:{drop,create,migrate,seed}` etc)
+- Fork this repository
+- Clone down **your** forked repository
+- Perform the usual setup steps after cloning a Rails application:
+     - `bundle install`, 
+     - `rake db:{drop,create,migrate,seed}`
+     
+## Submission
+
+When you have completed this challenge, submit by creating a Pull Request back to the turingschool-projects repo.  Include the following information:
+- Your Name
+- A reflection on how you did with this challenge, including particularly fun or difficutlt parts
 
 ## Requirements
 

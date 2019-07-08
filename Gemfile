@@ -22,6 +22,8 @@ group :development, :test do
   gem 'pry'
   gem 'launchy'
   gem 'simplecov', require: false, group: :test
+  gem 'active_designer'
+
 end
 
 group :development do

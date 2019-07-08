@@ -1,11 +1,15 @@
 <h1>Index</h1>
 
 <% @astronauts.each do |astronaut| %>
-<p><%=astronaut.name %></p>
-<p><%= astronaut.age%> </p>
-<p><%= astronaut.job %></p>
-<p><% astronaut.missions.each do |mission| %></p>
-<p><%= mission.title  %> </p>
+<p>Name: <%=astronaut.name %></p>
+<p>Age: <%= astronaut.age%> </p>
+<p>Job: <%= astronaut.job %></p>
+<p>Total Time In Space: <%= @time_in_space%></p>
+<ul>Missions:
+<% astronaut.missions.each do |mission| %>
+<li> <%= mission.title  %> </li>
 <% end%>
+</ul>
 <% end%>
+
 <p> Average Age: <%= @astronauts_avg%></p>
